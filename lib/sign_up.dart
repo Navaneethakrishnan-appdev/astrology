@@ -147,8 +147,7 @@ class _SignUpState extends State<SignUp> {
                               });
                             },
                             style: ElevatedButton.styleFrom(
-                                // backgroundColor: Color(0xffE1353C),
-                                backgroundColor: Colors.white30,
+                                backgroundColor: Color(0xffE1353C),
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10)),
                                 maximumSize: Size(200, 50)),
