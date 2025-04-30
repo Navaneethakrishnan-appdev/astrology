@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:vcode_ui/otp.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
@@ -147,7 +147,8 @@ class _SignUpState extends State<SignUp> {
                               });
                             },
                             style: ElevatedButton.styleFrom(
-                                backgroundColor: Color(0xffE1353C),
+                                // backgroundColor: Color(0xffE1353C),
+                                backgroundColor: Colors.black,
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10)),
                                 maximumSize: Size(200, 50)),
